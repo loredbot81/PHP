@@ -1,5 +1,5 @@
 <?php
-	define( 'DB_NAME', "my_yicorsowebdev" );
-    define( 'DB_USERNAME', "YiCorsoWebDev" );
-    define( 'DB_PASSWORD', "*****************" );
-    define( 'DB_HOST', "YiCorsoWebDev.altervista.org" );
+	define( 'DB_NAME', "" );
+    define( 'DB_USERNAME', "" );
+    define( 'DB_PASSWORD', "" );
+    define( 'DB_HOST', "" );
