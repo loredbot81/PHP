@@ -1,0 +1,47 @@
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-weight: 500;
+}
+#contenuto {
+	width: 800px;
+    margin: 0 auto;
+}
+#contenuto:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.left {
+	float: left;
+	margin: 0px;
+    width: 200px;
+}
+.left a {
+	font-size: 14px;
+	padding: 0px;
+    color: #466c85;
+    text-decoration: none;
+}
+
+.right {
+	float: right;
+    margin-left: 10px;
+    width: 590px;
+}
+
+.right article a {
+	font-size: 14px;
+	color: #466c85;
+	padding: 0px;
+    text-decoration: underline;
+    line-height: 0px;
+}
+.right article a:hover {
+	text-decoration: none;
+}
